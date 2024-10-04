@@ -31,3 +31,6 @@ Exploratory Data Analysis on 2022 Household Income data
 
 4. Data Completeness and Validity
    - identifed and analyzed potential inconsistencies in the ALand and AWater columns, such as rows with no water or land.
+
+# Exploratory Data Analysis (EDA)
+* Explored the relationship between US household income, state demographics, and land/water area.
