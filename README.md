@@ -25,4 +25,9 @@ Exploratory Data Analysis on 2022 Household Income data
 3. Data Consistency and Correctness
    - Checked for duplicates in the us_household_income_statistics table (no duplicates found).
    - identified and corrected misspelled state names like "georia" and "alabama".
-   - 
+   - Used DISTINCT and ORDER BY to identify and standardize state abbreviations.
+   - Identified and updates empty place values using information from County and City.
+   - identified and corrected inconsistent type values like "Boroughs" to "Borough".
+
+4. Data Completeness and Validity
+   - identifed and analyzed potential inconsistencies in the ALand and AWater columns, such as rows with no water or land.
