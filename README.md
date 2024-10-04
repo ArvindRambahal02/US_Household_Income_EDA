@@ -12,3 +12,17 @@ Exploratory Data Analysis on 2022 Household Income data
 * For example, when importing the Area of Land values and Area of Water values, MySQL by default imports it as an int in the Data Import Wizard.
 * However, the values are extremely large integers, so in the Data Import Wizard, you must set these fields to the bigint data type.
 * Afterwards all 32,532 rows should be imported.
+
+# Data Cleaning process
+1. Table Structure and Data Inspection
+   - renamed the ï»¿id column in the us_household_income_statistics table to id for consistency.
+
+2. Duplicate Row Identification and Removal:
+   - identified duplicate rows based on the id column in the us_household_income table.
+   - used a subquery and ROW_NUMBER() over partitions to identify the specific rows that are duplicates.
+   - removed the duplicate rows based on row_id values obtained from the subquery.
+
+3. Data Consistency and Correctness
+   - Checked for duplicates in the us_household_income_statistics table (no duplicates found).
+   - identified and corrected misspelled state names like "georia" and "alabama".
+   - 
