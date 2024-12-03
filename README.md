@@ -34,3 +34,27 @@ Exploratory Data Analysis on 2022 Household Income data
 
 # Exploratory Data Analysis (EDA)
 * Explored the relationship between US household income, state demographics, and land/water area.
+* Exploring Area Land and Area water for each state
+  - Sum of ALand
+       - Top 5 states with the largest sum of Area Land. These states have large land.
+       - Alaska, Texas, Oregon, California, Montana
+   
+  - Sum of AWwater
+       - Top 5 states with the largest sum of Area Water. These states have lots of water (rivers, streams, etc.)
+       - Alaska, Michigan, Texas, Florida, Hawaii
+   
+* Average houseehold income for each state
+     - States with the highest average income
+          - District of Columnbia: $90,668.4
+          - Connecticut          : $89,732.8
+          - New Jersey           : $89,565.4
+          - Maryland             : $88,444.2
+          - Massachusetts        : $85,645.7
+
+     - States with the highest median income
+          - New Jersey   : $126,972.7
+          - Connecticut  : $121,240.4
+          - Massachusetts: $119,074.4
+          - Wyoming      : $118,339.1
+          - Maryland     : $114,969.2
+These states have households making lots of money
